@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: wheat;
+}
+
+#heading {
+    font-size: 50px;
+    padding: 20px;
+    color: yellowgreen;
+    font-weight: bolder;
+    background-color: black;
+}
+
+@media(max-width:500px) {
+    #heading {
+        font-size: 30px;
+    }
+}
+
+.head2 {
+    margin: 2rem;
+    color: red;
+    font-size: 29px;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+/* Grid Container for buttons CSS */
+.container {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: fit-content;
+    width: fit-content;
+    margin: 50px auto;
+    margin-bottom: 40px;
+}
+
+/* Buttons CSS */
+.btn {
+    width: 10rem;
+    height: 10rem;
+    margin: 5px;
+    border-radius: 10%;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    border-color: rgb(7, 99, 116);
+    cursor: pointer;
+}
+
+/* Buttons Start */
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: yellowgreen;
+}
+
+.blue {
+    background-color: blueviolet;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* Simon button Ends */
+
+
+/* Start and Rules Button CSS */
+.gameBtn {
+    font-size: 1.4rem;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 4rem;
+    border: 3.5px solid rgb(0, 0, 0);
+    margin: 1rem 1rem;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.gameBtn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#rules:hover {
+    background-color: rgb(64, 4, 69);
+    color: white;
+}
+
+.rulesList {
+    display: flex;
+    flex-direction: column;
+    list-style-type: upper-roman;
+    justify-content: center;
+    align-items: center;
+}
+
+.rulesList li {
+    flex-wrap: wrap;
+    padding: 12px;
+    padding-left: 7px;
+    font-size: 18px;
+}
+
+/* Footer CSS */
+#footer {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+    bottom: 0;
+}
+
+/*  Game Dynamics CSS */
+.flash {
+    background-color: rgb(255, 254, 254);
+}
+
+.userflash {
+    background-color: aquamarine;
+}
+
+.stepsCon {
+    display: none;
+}
+
+.steps {
+    display: block;
+    font-size: 24px;
+    padding: 4px;
+    font-weight: 800;
+}
