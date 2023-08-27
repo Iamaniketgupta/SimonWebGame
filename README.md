@@ -1,6 +1,6 @@
 # SimonWebGame
 
-# Go Live : https://iamaniketgupta.github.io/SimonWebGame/
+* Go Live : https://iamaniketgupta.github.io/SimonWebGame/
 * OR : https://simon-play.netlify.app/
 
 
